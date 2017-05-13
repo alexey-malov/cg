@@ -1,0 +1,10 @@
+uniform samplerCube EnvironmentTexture;
+
+varying vec3 Normal;
+varying vec3 View;
+
+void main(void)
+{
+   vec3 texCoord = reflect(View, Normal);
+   gl_FragColor = textureCube(EnvironmentTexture, texCoord);
+}

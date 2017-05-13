@@ -1,0 +1,12 @@
+varying vec3 Normal;
+varying vec3 View;
+
+void main(void)
+{
+   gl_Position = ftransform();
+  
+   // normal direction in view space
+   Normal = normalize(gl_NormalMatrix * gl_Normal);
+
+   View = (gl_ModelViewMatrix * gl_Vertex).xyz;  
+}

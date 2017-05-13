@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_simple_texturing", "01_simple_texturing\01_simple_texturing.vcproj", "{8748D401-8257-44A8-A189-073AE89923FC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_textured_sphere", "02_textured_sphere\02_textured_sphere.vcproj", "{B15FD18A-9A94-4B7A-BD7E-98393F012604}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_fog", "03_fog\03_fog.vcproj", "{9E0C8F82-0EEB-4B9F-9612-2C79DA8C979E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_multi_texturing", "04_multi_texturing\04_multi_texturing.vcproj", "{46BFA40B-E08D-4F30-B36C-264EACB518F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8748D401-8257-44A8-A189-073AE89923FC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8748D401-8257-44A8-A189-073AE89923FC}.Debug|Win32.Build.0 = Debug|Win32
+		{8748D401-8257-44A8-A189-073AE89923FC}.Release|Win32.ActiveCfg = Release|Win32
+		{8748D401-8257-44A8-A189-073AE89923FC}.Release|Win32.Build.0 = Release|Win32
+		{B15FD18A-9A94-4B7A-BD7E-98393F012604}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B15FD18A-9A94-4B7A-BD7E-98393F012604}.Debug|Win32.Build.0 = Debug|Win32
+		{B15FD18A-9A94-4B7A-BD7E-98393F012604}.Release|Win32.ActiveCfg = Release|Win32
+		{B15FD18A-9A94-4B7A-BD7E-98393F012604}.Release|Win32.Build.0 = Release|Win32
+		{9E0C8F82-0EEB-4B9F-9612-2C79DA8C979E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9E0C8F82-0EEB-4B9F-9612-2C79DA8C979E}.Debug|Win32.Build.0 = Debug|Win32
+		{9E0C8F82-0EEB-4B9F-9612-2C79DA8C979E}.Release|Win32.ActiveCfg = Release|Win32
+		{9E0C8F82-0EEB-4B9F-9612-2C79DA8C979E}.Release|Win32.Build.0 = Release|Win32
+		{46BFA40B-E08D-4F30-B36C-264EACB518F2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{46BFA40B-E08D-4F30-B36C-264EACB518F2}.Debug|Win32.Build.0 = Debug|Win32
+		{46BFA40B-E08D-4F30-B36C-264EACB518F2}.Release|Win32.ActiveCfg = Release|Win32
+		{46BFA40B-E08D-4F30-B36C-264EACB518F2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

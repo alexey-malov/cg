@@ -1,0 +1,11 @@
+Loading shaders
+loading shader shaders/vertexshader.vs
+Ok
+loading shader shaders/fragmentshader.fs
+Ok
+Compile shader
+
+Compile shader
+
+Linking program
+Ok
